@@ -22,7 +22,7 @@ int main(int argc, char **argv){
 	std::istreambuf_iterator<char> start(input);
 	std::istreambuf_iterator<char> end;
 	std::vector<char> buf(start, end);
-	for (int i = 0; i < 36; i++) {
+	for (int i = 0; i < 768; i++) {
 		output << buf[i];
 	}
 	double sec = std::atof(argv[3]), coef = std::atof(argv[4]);
